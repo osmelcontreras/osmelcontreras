@@ -34,7 +34,7 @@ public class Registration {
 			br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
 
 			String output;
-			System.out.println("Output from server.... \n");
+			System.out.println("Output from server: ");
 			while((output = br.readLine()) != null) {
 				System.out.println(output);
 			}
