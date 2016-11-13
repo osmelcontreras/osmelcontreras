@@ -46,7 +46,7 @@ public class reverse {
 				System.out.println(validate);
 
 	
-				URL validateURL = new URL("http://challenge.code2040.org/api/validate");
+				URL validateURL = new URL("http://challenge.code2040.org/api/reverse/validate");
 
 				conn2 = (HttpURLConnection) validateURL.openConnection();
 				conn2.setDoOutput(true);
